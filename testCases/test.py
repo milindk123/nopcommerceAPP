@@ -1,2 +1,2 @@
- print function in python
+#print function in python
 print("welcome")

@@ -1,7 +1,7 @@
 import time
 import pytest
 from selenium import webdriver
-from pageObjects.LoginPage import LoginPage
+from pageObjects.LoginPage import Login
 from utilities.readProprties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities import XLUtils
@@ -20,7 +20,7 @@ class Test_002_DDT_Login:
         self.driver =setup
         self.driver.get(self.baseURL)
 
-        self.lp = LoginPage(self.driver)
+        self.lp = Login(self.driver)
         self.rows=XLUtils.getRowCount(self.path,'Sheet1')
         print("Number of rows in a Excel:",self.rows)
         list_status=[]

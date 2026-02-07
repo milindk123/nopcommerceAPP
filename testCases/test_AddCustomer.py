@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from selenium.webdriver.common.by import By
 
-from pageObjects.LoginPage import LoginPage
+from pageObjects.LoginPage import Login
 from pageObjects.addCustomerPage import AddCustomer
 from utilities.readProprties import ReadConfig
 from utilities.customLogger import LogGen
@@ -26,7 +26,7 @@ class Test_003_AddCustomer:
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
 
-        self.lp = LoginPage(self.driver)
+        self.lp = Login(self.driver)
         self.lp.clearAndSetUserName(self.username)
         self.lp.clearAndSetPassword(self.password)
         self.lp.clickLogin()
