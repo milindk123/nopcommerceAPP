@@ -7,7 +7,7 @@ from pageObjects.addCustomerPage import AddCustomer
 from utilities.readProprties import  ReadConfig
 from utilities.customLogger import LogGen
 
-class Test_SearchCustomerByNAme_005:
+class Test_SearchCustomerByName_005:
     url=ReadConfig.getApplicationURL()
     userName=ReadConfig.getUserName()
     password=ReadConfig.getPassword()

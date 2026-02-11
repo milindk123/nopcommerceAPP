@@ -1,0 +1,16 @@
+# Python cache files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# IDE folders
+.idea/
+.vscode/
+
+# Test reports & Logs
+Reports/
+Logs/
+.pytest_cache/
+
+# Excel data files (optional, if you don't want to share data)
+TestData/*.xlsx

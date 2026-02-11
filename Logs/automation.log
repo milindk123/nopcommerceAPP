@@ -1,69 +1,242 @@
-02/07/202605:07:16AM:INFO:****************  Test_SearchCustomerByEmail_004 ***************
-02/07/202605:07:24AM:INFO:********** Login Succesful *******************
-02/07/202605:07:24AM:INFO:*********** starting search customer by name
-02/07/202605:07:26AM:INFO:********** Search customer By Name *******************
-02/07/202605:07:33AM:INFO:Customer FOUND with name: Kambale
-02/07/202605:07:33AM:INFO:********** Test_SearchCustomerByEmail_004 finished *******************
-02/07/202605:14:50AM:INFO:****************  Test_SearchCustomerByEmail_004 ***************
-02/07/202605:14:58AM:INFO:********** Login Succesful *******************
-02/07/202605:14:58AM:INFO:*********** starting search customer by name
-02/07/202605:15:00AM:INFO:********** Search customer By Name *******************
-02/07/202605:15:05AM:ERROR: Customer NOT FOUND with email: Milind
-02/07/202605:16:56AM:INFO:****************  Test_SearchCustomerByEmail_004 ***************
-02/07/202605:17:04AM:INFO:********** Login Succesful *******************
-02/07/202605:17:04AM:INFO:*********** starting search customer by name
-02/07/202605:17:06AM:INFO:********** Search customer By Name *******************
-02/07/202605:17:42AM:INFO:****************  Test_SearchCustomerByEmail_004 ***************
-02/07/202605:17:49AM:INFO:********** Login Succesful *******************
-02/07/202605:17:49AM:INFO:*********** starting search customer by name
-02/07/202605:17:52AM:INFO:********** Search customer By Name *******************
-02/07/202605:19:01AM:INFO:****************  Test_SearchCustomerByEmail_004 ***************
-02/07/202605:19:08AM:INFO:********** Login Succesful *******************
-02/07/202605:19:08AM:INFO:*********** starting search customer by name
-02/07/202605:19:11AM:INFO:********** Search customer By Name *******************
-02/07/202605:19:17AM:ERROR: Customer NOT FOUND with email: Milind
-02/07/202605:43:16AM:INFO:************* Test_003_AddCustomer **********
-02/07/202605:43:23AM:INFO:************* Login succesful **********
-02/07/202605:43:23AM:INFO:******* Starting Add Customer Test **********
-02/07/202605:43:31AM:INFO:************* Providing customer info **********
-02/07/202605:43:55AM:INFO:************* Saving customer info **********
-02/07/202605:43:55AM:INFO:********* Add customer validation started *****************
-02/07/202605:43:56AM:INFO:********* Add customer Test Passed *********
-02/07/202605:43:57AM:INFO:******* Ending Add customer test **********
-02/07/202605:44:01AM:INFO:*****Verifying login test****************
-02/07/202605:44:10AM:INFO:*****Login test is passed****************
-02/07/202606:20:11AM:INFO:************* Test_003_AddCustomer **********
-02/07/202606:20:18AM:INFO:************* Login succesful **********
-02/07/202606:20:18AM:INFO:******* Starting Add Customer Test **********
-02/07/202606:20:26AM:INFO:************* Providing customer info **********
-02/07/202606:20:47AM:INFO:************* Saving customer info **********
-02/07/202606:20:47AM:INFO:********* Add customer validation started *****************
-02/07/202606:20:48AM:INFO:********* Add customer Test Passed *********
-02/07/202606:20:48AM:INFO:******* Ending Add customer test **********
-02/07/202606:20:52AM:INFO:*****Verifying login test****************
-02/07/202606:21:00AM:INFO:*****Login test is passed****************
-02/07/202606:26:51AM:INFO:************* Test_003_AddCustomer **********
-02/07/202606:26:58AM:INFO:************* Login succesful **********
-02/07/202606:26:58AM:INFO:******* Starting Add Customer Test **********
-02/07/202606:27:07AM:INFO:************* Providing customer info **********
-02/07/202606:27:29AM:INFO:************* Saving customer info **********
-02/07/202606:27:29AM:INFO:********* Add customer validation started *****************
-02/07/202606:27:30AM:INFO:********* Add customer Test Passed *********
-02/07/202606:27:31AM:INFO:******* Ending Add customer test **********
-02/07/202606:27:34AM:INFO:*****Verifying login test****************
-02/07/202606:27:42AM:INFO:*****Login test is passed****************
-02/07/202607:12:17PM:INFO:************* Test_003_AddCustomer **********
-02/07/202607:12:36PM:INFO:************* Login succesful **********
-02/07/202607:12:36PM:INFO:******* Starting Add Customer Test **********
-02/07/202607:12:52PM:INFO:************* Providing customer info **********
-02/07/202607:13:30PM:INFO:************* Saving customer info **********
-02/07/202607:13:30PM:INFO:********* Add customer validation started *****************
-02/07/202607:13:31PM:INFO:********* Add customer Test Passed *********
-02/07/202607:14:31PM:INFO:******* Ending Add customer test **********
-02/07/202607:14:38PM:INFO:*****Verifying login test****************
-02/07/202607:14:56PM:INFO:*****Login test is passed****************
-02/07/202607:17:30PM:INFO:************* Test_003_AddCustomer **********
-02/07/202607:19:31PM:INFO:************* Login succesful **********
-02/07/202607:19:31PM:INFO:******* Starting Add Customer Test **********
-02/07/202607:20:27PM:INFO:*****Verifying login test****************
-02/07/202607:20:34PM:INFO:*****Login test is passed****************
+02/01/202612:11:11AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:11:39AM:INFO:***** Login succesful ****
+02/01/202612:11:39AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:18:49AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:19:10AM:INFO:***** Login succesful ****
+02/01/202612:19:10AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:19:15AM:INFO:***** Providing customer info ****
+02/01/202612:34:51AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:35:10AM:INFO:***** Login succesful ****
+02/01/202612:35:10AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:35:15AM:INFO:***** Providing customer info ****
+02/01/202612:35:33AM:INFO:***** Saving customer info ****
+02/01/202612:35:33AM:INFO:*** Add customer validation started *******
+02/01/202612:35:34AM:INFO:*** Add customer Test Passed ***
+02/01/202612:35:37AM:INFO:*** Ending Add customer test ****
+02/01/202612:37:58AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:38:19AM:INFO:***** Login succesful ****
+02/01/202612:38:19AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:38:24AM:INFO:***** Providing customer info ****
+02/01/202612:43:53AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:44:12AM:INFO:***** Login succesful ****
+02/01/202612:44:12AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:44:17AM:INFO:***** Providing customer info ****
+02/01/202612:46:05AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:46:25AM:INFO:***** Login succesful ****
+02/01/202612:46:25AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:46:30AM:INFO:***** Providing customer info ****
+02/01/202612:46:47AM:INFO:***** Saving customer info ****
+02/01/202612:46:47AM:INFO:*** Add customer validation started *******
+02/01/202612:46:48AM:INFO:*** Add customer Test Passed ***
+02/01/202612:46:50AM:INFO:*** Ending Add customer test ****
+02/01/202612:47:24AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:47:46AM:INFO:***** Login succesful ****
+02/01/202612:47:46AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:47:50AM:INFO:***** Providing customer info ****
+02/01/202612:48:08AM:INFO:***** Saving customer info ****
+02/01/202612:48:08AM:INFO:*** Add customer validation started *******
+02/01/202612:48:08AM:INFO:*** Add customer Test Passed ***
+02/01/202612:48:11AM:INFO:*** Ending Add customer test ****
+02/01/202612:49:47AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:50:09AM:INFO:***** Login succesful ****
+02/01/202612:50:09AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:50:15AM:INFO:***** Providing customer info ****
+02/01/202612:50:32AM:INFO:***** Saving customer info ****
+02/01/202612:50:32AM:INFO:*** Add customer validation started *******
+02/01/202612:50:33AM:INFO:*** Add customer Test Passed ***
+02/01/202612:50:36AM:INFO:*** Ending Add customer test ****
+02/01/202612:52:10AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:52:31AM:INFO:***** Login succesful ****
+02/01/202612:52:31AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:52:36AM:INFO:***** Providing customer info ****
+02/01/202612:52:52AM:INFO:***** Saving customer info ****
+02/01/202612:52:52AM:INFO:*** Add customer validation started *******
+02/01/202612:52:53AM:INFO:*** Add customer Test Passed ***
+02/01/202612:52:56AM:INFO:*** Ending Add customer test ****
+02/01/202612:54:52AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:55:14AM:INFO:***** Login succesful ****
+02/01/202612:55:14AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:55:19AM:INFO:***** Providing customer info ****
+02/01/202612:56:30AM:INFO:***** Test_003_AddCustomer ****
+02/01/202612:56:53AM:INFO:***** Login succesful ****
+02/01/202612:56:53AM:INFO:*** Starting Add Customer Test ****
+02/01/202612:56:57AM:INFO:***** Providing customer info ****
+02/01/202612:57:14AM:INFO:***** Saving customer info ****
+02/01/202612:57:14AM:INFO:*** Add customer validation started *******
+02/01/202612:57:15AM:ERROR:*** Add customer Test Failed ****
+02/01/202601:15:47AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:16:07AM:INFO:***** Login succesful ****
+02/01/202601:16:07AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:16:12AM:INFO:***** Providing customer info ****
+02/01/202601:21:52AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:22:52AM:INFO:***** Login succesful ****
+02/01/202601:22:52AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:25:00AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:25:21AM:INFO:***** Login succesful ****
+02/01/202601:25:21AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:25:25AM:INFO:***** Providing customer info ****
+02/01/202601:25:30AM:INFO:***** Saving customer info ****
+02/01/202601:25:30AM:INFO:*** Add customer validation started *******
+02/01/202601:25:32AM:ERROR:*** Add customer Test Failed ****
+02/01/202601:43:02AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:43:23AM:INFO:***** Login succesful ****
+02/01/202601:43:23AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:43:29AM:INFO:***** Providing customer info ****
+02/01/202601:48:18AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:48:38AM:INFO:***** Login succesful ****
+02/01/202601:48:38AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:48:43AM:INFO:***** Providing customer info ****
+02/01/202601:48:55AM:INFO:***** Saving customer info ****
+02/01/202601:48:55AM:INFO:*** Add customer validation started *******
+02/01/202601:48:56AM:INFO:*** Add customer Test Passed ***
+02/01/202601:49:00AM:INFO:*** Ending Add customer test ****
+02/01/202601:50:58AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:51:19AM:INFO:***** Login succesful ****
+02/01/202601:51:19AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:51:31AM:INFO:***** Providing customer info ****
+02/01/202601:52:02AM:INFO:***** Saving customer info ****
+02/01/202601:52:02AM:INFO:*** Add customer validation started *******
+02/01/202601:52:03AM:ERROR:*** Add customer Test Failed ****
+02/01/202601:53:30AM:INFO:***** Test_003_AddCustomer ****
+02/01/202601:53:54AM:INFO:***** Login succesful ****
+02/01/202601:53:54AM:INFO:*** Starting Add Customer Test ****
+02/01/202601:53:58AM:INFO:***** Providing customer info ****
+02/01/202601:54:25AM:INFO:***** Saving customer info ****
+02/01/202601:54:25AM:INFO:*** Add customer validation started *******
+02/01/202601:54:38AM:INFO:*** Add customer Test Passed ***
+02/01/202601:54:40AM:INFO:*** Ending Add customer test ****
+02/01/202602:05:23AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:06:24AM:INFO:***** Login succesful ****
+02/01/202602:06:24AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:06:32AM:INFO:***** Providing customer info ****
+02/01/202602:08:32AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:09:23AM:INFO:***** Login succesful ****
+02/01/202602:09:23AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:11:08AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:11:53AM:INFO:***** Login succesful ****
+02/01/202602:11:53AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:14:28AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:18:56AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:19:20AM:INFO:***** Login succesful ****
+02/01/202602:19:20AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:31:46AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:32:08AM:INFO:***** Login succesful ****
+02/01/202602:32:08AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:32:15AM:INFO:***** Providing customer info ****
+02/01/202602:45:36AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:45:59AM:INFO:***** Login succesful ****
+02/01/202602:45:59AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:46:46AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:47:26AM:INFO:***** Login succesful ****
+02/01/202602:47:26AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:48:12AM:INFO:***** Test_003_AddCustomer ****
+02/01/202602:48:30AM:INFO:***** Login succesful ****
+02/01/202602:48:30AM:INFO:*** Starting Add Customer Test ****
+02/01/202602:48:36AM:INFO:***** Providing customer info ****
+02/01/202603:00:50AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:01:16AM:INFO:***** Login succesful ****
+02/01/202603:01:16AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:02:33AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:03:17AM:INFO:***** Login succesful ****
+02/01/202603:03:17AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:03:21AM:INFO:***** Providing customer info ****
+02/01/202603:09:51AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:10:10AM:INFO:***** Login succesful ****
+02/01/202603:10:10AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:10:20AM:INFO:***** Providing customer info ****
+02/01/202603:11:46AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:12:08AM:INFO:***** Login succesful ****
+02/01/202603:12:08AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:12:18AM:INFO:***** Providing customer info ****
+02/01/202603:12:35AM:INFO:***** Saving customer info ****
+02/01/202603:12:35AM:INFO:*** Add customer validation started *******
+02/01/202603:23:25AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:23:47AM:INFO:***** Login succesful ****
+02/01/202603:23:47AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:23:56AM:INFO:***** Providing customer info ****
+02/01/202603:28:18AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:28:39AM:INFO:***** Login succesful ****
+02/01/202603:28:39AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:28:49AM:INFO:***** Providing customer info ****
+02/01/202603:38:52AM:INFO:***** Test_003_AddCustomer ****
+02/01/202603:39:14AM:INFO:***** Login succesful ****
+02/01/202603:39:14AM:INFO:*** Starting Add Customer Test ****
+02/01/202603:39:42AM:INFO:***** Providing customer info ****
+02/01/202604:13:33AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:13:52AM:INFO:***** Login succesful ****
+02/01/202604:13:52AM:INFO:*** Starting Add Customer Test ****
+02/01/202604:14:16AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:15:16AM:INFO:***** Login succesful ****
+02/01/202604:15:16AM:INFO:*** Starting Add Customer Test ****
+02/01/202604:30:26AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:30:46AM:INFO:***** Login succesful ****
+02/01/202604:30:46AM:INFO:*** Starting Add Customer Test ****
+02/01/202604:30:55AM:INFO:***** Providing customer info ****
+02/01/202604:34:48AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:35:07AM:INFO:***** Login succesful ****
+02/01/202604:35:07AM:INFO:*** Starting Add Customer Test ****
+02/01/202604:36:03AM:INFO:***** Providing customer info ****
+02/01/202604:36:47AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:37:05AM:INFO:***** Login succesful ****
+02/01/202604:37:05AM:INFO:*** Starting Add Customer Test ****
+02/01/202604:44:34AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:44:54AM:INFO:***** Login succesful ****
+02/01/202604:44:54AM:INFO:*** Starting Add Customer Test ****
+02/01/202604:45:12AM:INFO:***** Providing customer info ****
+02/01/202604:51:55AM:INFO:***** Test_003_AddCustomer ****
+02/01/202604:52:52AM:INFO:***** Login succesful ****
+02/01/202604:52:52AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:00:37AM:INFO:***** Test_003_AddCustomer ****
+02/01/202605:01:00AM:INFO:***** Login succesful ****
+02/01/202605:01:00AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:06:15AM:INFO:***** Test_003_AddCustomer ****
+02/01/202605:06:36AM:INFO:***** Login succesful ****
+02/01/202605:06:36AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:06:51AM:INFO:***** Providing customer info ****
+02/01/202605:21:17AM:INFO:***** Test_003_AddCustomer ****
+02/01/202605:21:39AM:INFO:***** Login succesful ****
+02/01/202605:21:39AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:21:51AM:INFO:***** Providing customer info ****
+02/01/202605:26:00AM:INFO:***** Test_003_AddCustomer ****
+02/01/202605:26:22AM:INFO:***** Login succesful ****
+02/01/202605:26:22AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:26:34AM:INFO:***** Providing customer info ****
+02/01/202605:26:41AM:INFO:***** Saving customer info ****
+02/01/202605:26:41AM:INFO:*** Add customer validation started *******
+02/01/202605:26:42AM:INFO:*** Add customer Test Passed ***
+02/01/202605:26:45AM:INFO:*** Ending Add customer test ****
+02/01/202605:35:40AM:INFO:***** Test_003_AddCustomer ****
+02/01/202605:36:02AM:INFO:***** Login succesful ****
+02/01/202605:36:02AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:36:12AM:INFO:***** Providing customer info ****
+02/01/202605:42:31AM:INFO:***** Test_003_AddCustomer ****
+02/01/202605:42:52AM:INFO:***** Login succesful ****
+02/01/202605:42:52AM:INFO:*** Starting Add Customer Test ****
+02/01/202605:43:02AM:INFO:***** Providing customer info ****
+02/11/202611:28:34PM:INFO:***** Test_003_AddCustomer ****
+02/11/202611:32:45PM:INFO:***** Test_002_DDT_Login*****
+02/11/202611:32:45PM:INFO:**Verifying login DDT test*****
+02/11/202611:37:30PM:INFO:***** Test_002_DDT_Login*****
+02/11/202611:37:30PM:INFO:**Verifying login DDT test*****
+02/12/202602:15:30AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:15:35AM:INFO:************* Login succesful **********
+02/12/202602:15:35AM:INFO:******* Starting Add Customer Test **********
+02/12/202602:15:59AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:16:04AM:INFO:************* Login succesful **********
+02/12/202602:16:04AM:INFO:******* Starting Add Customer Test **********
+02/12/202602:16:31AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:17:18AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:17:21AM:INFO:************* Login succesful **********
+02/12/202602:17:21AM:INFO:******* Starting Add Customer Test **********
+02/12/202602:25:59AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:26:05AM:INFO:************* Login succesful **********
+02/12/202602:26:05AM:INFO:******* Starting Add Customer Test **********
+02/12/202602:26:36AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:26:39AM:INFO:************* Login succesful **********
+02/12/202602:26:39AM:INFO:******* Starting Add Customer Test **********
+02/12/202602:27:31AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:27:35AM:INFO:************* Login succesful **********
+02/12/202602:27:35AM:INFO:******* Starting Add Customer Test **********
+02/12/202602:49:43AM:INFO:************* Test_003_AddCustomer **********
+02/12/202602:49:48AM:INFO:************* Login succesful **********
+02/12/202602:49:48AM:INFO:******* Starting Add Customer Test **********
