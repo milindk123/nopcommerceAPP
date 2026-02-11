@@ -1,18 +1,32 @@
+import time
+
 import pytest
 from selenium import webdriver
 import pytest
 
 @pytest.fixture()
-def setup():
-        options = webdriver.ChromeOptions()
-        # This helps hide the "automation" flag
-        options.add_argument("--disable-blink-features=AutomationControlled")
-        # This removes the "Chrome is being controlled by automated software" bar
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        driver=webdriver.Chrome(options=options)
+def setup(browser):
+    driver=None
+    if browser=="chrome":
+        driver=webdriver.Chrome()
         driver.maximize_window()
         print("Launching Chrome browser......")
-        return driver
+    elif browser=='firefox':
+        driver = webdriver.Firefox()
+        driver.maximize_window()
+        print("Launching firefox browser")
+    else:
+        driver=webdriver.Chrome() # default chrome browser if browser is not supported
+    yield driver
+    driver.quit()
+
+
+def pytest_addoption(parser): # this will get the value from CLI/hooks
+    parser.addoption("--browser")
+
+@pytest.fixture()
+def browser(request): # this will return the browser value to setup method
+    return request.config.getoption("--browser")
 
 ############# pytest HTML  Report ######################
 # It is hook for adding Environment info to HTML Report
@@ -28,4 +42,3 @@ def pytest_configure(config):
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
     metadata.pop("plugins", None)
-

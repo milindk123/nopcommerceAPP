@@ -1,11 +1,9 @@
 import time
-
 import pytest
 from selenium import webdriver
-from pageobjects.LoginPage import LoginPage
-from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 from utilities import XLUtils
+from utilities.readProprties import ReadConfig
 
 class Test_002_DDT_Login:
     baseURL = ReadConfig.getApplicationURL()
@@ -14,14 +12,10 @@ class Test_002_DDT_Login:
 
     logger=LogGen.loggen()
 
-
     def test_login__ddt(self, setup):
-        self.logger.info("***** Test_002_DDT_Login*****")
-        self.logger.info("**Verifying login DDT test*****")
         self.driver =setup
         self.driver.get(self.baseURL)
 
-        self.lp = LoginPage(self.driver)
         self.rows=XLUtils.getRowCount(self.path,'Sheet1')
         print("Number of rows in a Excel:",self.rows)
         list_status=[]
@@ -41,29 +35,20 @@ class Test_002_DDT_Login:
 
             if act_title==exp_title:
                 if self.exp=='Pass':
-                    self.logger.info("***passed****")
                     self.lp.clickLogOut()
                     list_status.append("pass")
                 elif self.exp=='Fail':
-                    self.logger.info("***failed****")
                     self.lp.clickLogOut()
                     list_status.append("fail")
             elif act_title!=exp_title:
                     if self.exp=="Pass":
-                        self.logger.info("***failed****")
                         list_status.append("fail")
                     elif self.exp=='Fail':
-                        self.logger.info("***passed****")
                         list_status.append("pass")
 
         if "Fail" not in list_status:
-            self.logger.info("***Login DDT is passed****")
             self.driver.close()
             assert True
         else:
-            self.logger.info("***Login DDT is Failed****")
             self.driver.close()
             assert False
-
-        self.logger.info("**** End of Login DDT Test ****")
-        self.logger.info("**** Completed TC_LoginDDT_002 *****")
